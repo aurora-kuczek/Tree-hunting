@@ -1,1 +1,302 @@
-{"languageMap":{},"form":"<form autocomplete=\"off\" novalidate=\"novalidate\" class=\"or clearfix\" dir=\"ltr\" id=\"survey\">\n<!--This form was created by transforming a OpenRosa-flavored (X)Form using an XSL stylesheet created by Enketo LLC.--><section class=\"form-logo\"> </section><h3 dir=\"auto\" id=\"form-title\">&lt;p style='text-align:start' title='Town of Brighton, New York, Tree Inventory Survey'&gt;Town of Brighton, New York, Tree Inventory Survey&lt;/p&gt;</h3>\n  \n  \n    <label class=\"question non-select \"><span lang=\"\" class=\"or-hint active\">&lt;p&gt;&lt;strong&gt;Be a Tree Hunter! &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Town of Brighton is looking for community members to help with their first interactive tree inventory project.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;A &lt;strong&gt;&lt;u&gt;tree inventory&lt;/u&gt;&lt;/strong&gt; is a record of trees in a specified area. It includes data such as important measurements of a tree, the location of a tree, and the health of a tree. This survey is designed to engage the community of the Town of Brighton to participate in their first interactive, urban tree inventory project. The data you input in this survey will go to a GIS technology map where the cumulative Town of Brighton data will be displayed.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Why is this important?&lt;/strong&gt; A tree inventory allows the town to maintain existing trees, plan for space, and plant new trees. Trees offer many benefits, or ecosystem services, to our community. They help to beautify our neighborhoods, provide shade, sequester carbon dioxide, and filter harmful pollutants.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Without trees we would not breathe!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;em style=\"font-size: 14px;\"&gt;Fill out this survey below!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;For further information, email Brett Carlock at &lt;u&gt;brett.carlock@townofbrighton.org&lt;/u&gt;&lt;/p&gt;</span><input type=\"text\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/generated_note_surveyDescription\" data-type-xml=\"string\" readonly=\"readonly\"/></label>\n    <label class=\"question non-select or-appearance-hide-input \"><span lang=\"\" class=\"question-label active\">Enter the GPS location of your tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Allow GIS to access your location to record this tree on the map&lt;/p&gt;</span><input type=\"text\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/enter_the_gps_location_of_your_\" data-required=\"true()\" data-type-xml=\"geopoint\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Name the street(s) address where this tree is located</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;What street does this tree lie on? Is it at an intersection of two streets? Are there any buildings or significant points nearby that can help to find this tree?&lt;/p&gt;</span><textarea name=\"/xls-79840e422bce43d2a9fae342efa66b1c/name_the_streets_address_where_\" data-required=\"true()\" data-type-xml=\"string\"> </textarea><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Species of Tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;What is the species of this tree? Record the genus/species and common name of this tree. Use the app \"iNaturalist\" if you are having trouble&lt;/p&gt;</span><input type=\"text\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/species_of_tree\" data-required=\"true()\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Image of tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your phone camera to take a clear photo of this tree&lt;/p&gt;</span><input type=\"file\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/image_of_tree\" data-required=\"true()\" data-type-xml=\"binary\" accept=\"image/*\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Add another image of tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your phone camera to take another photo or closeup of this tree&lt;/p&gt;</span><input type=\"file\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/add_another_image_of_tree\" data-required=\"true()\" data-type-xml=\"binary\" accept=\"image/*\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Total tree height (feet)</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your Doyle stick to measure&lt;/p&gt;</span><input type=\"text\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/field_10\" data-required=\"true()\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Find the DBH (diameter at breast height) of this tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your Doyle stick to measure&lt;/p&gt;</span><input type=\"text\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/field_8\" data-required=\"true()\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Specify if this tree is a town tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Is this tree a street tree, a park tree, or is it on private property?&lt;/p&gt;</span><textarea name=\"/xls-79840e422bce43d2a9fae342efa66b1c/specify_if_this_tree_is_a_town_\" data-required=\"true()\" data-type-xml=\"string\"> </textarea><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Health of this tree and crown condition</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;1.Describe the overall condition of this tree. Does it look healthy, are there some problematic spots like disease, or is it a dead tree? &lt;/p&gt;&lt;p&gt;2.What is its crown (top tree portion) condition? Give on a rating of excellent (healthy) to dead. &lt;/p&gt;</span><textarea name=\"/xls-79840e422bce43d2a9fae342efa66b1c/health_of_this_tree\" data-required=\"true()\" data-type-xml=\"string\"> </textarea><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Other comments</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Anything else you would like to add?&lt;/p&gt;</span><textarea name=\"/xls-79840e422bce43d2a9fae342efa66b1c/other_comments\" data-type-xml=\"string\"> </textarea></label>\n  \n<fieldset id=\"or-calculated-items\" style=\"display:none;\"><label class=\"calculation non-select \"><input type=\"hidden\" name=\"/xls-79840e422bce43d2a9fae342efa66b1c/meta/instanceID\" data-calculate=\"concat('uuid:', uuid())\" data-type-xml=\"string\"/></label></fieldset></form>","model":"<model><instance>\n        <xls-79840e422bce43d2a9fae342efa66b1c xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\" id=\"survey\">\n          <generated_note_surveyDescription/>\n          <enter_the_gps_location_of_your_/>\n          <name_the_streets_address_where_/>\n          <species_of_tree/>\n          <image_of_tree/>\n          <add_another_image_of_tree/>\n          <field_10/>\n          <field_8/>\n          <specify_if_this_tree_is_a_town_/>\n          <health_of_this_tree/>\n          <other_comments/>\n          <meta>\n            <instanceID/>\n          </meta>\n        </xls-79840e422bce43d2a9fae342efa66b1c>\n      </instance></model>","transformerVersion":"1.37.0","surveyFormJson":{"layerName":"survey","portalUrl":"https://www.arcgis.com","header":{"isVisible":true,"content":"%3Cp%20style%3D'text-align%3Astart'%20title%3D'Town%20of%20Brighton%2C%20New%20York%2C%20Tree%20Inventory%20Survey'%3ETown%20of%20Brighton%2C%20New%20York%2C%20Tree%20Inventory%20Survey%3C%2Fp%3E"},"subHeader":{"isVisible":true,"content":""},"questions":[{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/generated_note_surveyDescription","position":0,"name":"generated_note_surveyDescription","type":"esriQuestionTypeNote","label":"","isReadOnly":true,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/enter_the_gps_location_of_your_","position":1,"name":"enter_the_gps_location_of_your_","type":"esriQuestionTypeGeoPoint","label":"Enter the GPS location of your tree","isRequired":true,"defaultValue":{"spatialReference":{}},"defaultExtent":{"spatialReference":{}},"isDeviceLocationRequired":false,"maps":[{"type":"basemap","name":"connect_","isDefault":true}],"inputTools":["pin","search","locate"],"displayFormats":["DD"],"isReadOnly":false,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/name_the_streets_address_where_","position":2,"fieldName":"name_the_streets_address_where_","name":"name_the_streets_address_where_","type":"esriQuestionTypeTextArea","label":"Name the street(s) address where this tree is located","isRequired":true,"defaultValue":"","validation":{"valueRange":{"isEnabled":false}},"isReadOnly":false,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/species_of_tree","position":3,"fieldName":"species_of_tree","name":"species_of_tree","type":"esriQuestionTypeText","label":"Species of Tree","isRequired":true,"defaultValue":"","validation":{"valueRange":{"isEnabled":false}},"isReadOnly":false,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/image_of_tree","position":4,"name":"image_of_tree","type":"esriQuestionTypeImage","label":"Image of tree","isRequired":true,"validation":{"inputCount":{"isEnabled":true,"min":1,"max":1},"allowFileType":{"type":"image","exts":["bmp","gif","jp2","jpg","jpeg","jpe","png","psd","sid","tif","tiff"]}},"isReadOnly":false},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/add_another_image_of_tree","position":5,"name":"add_another_image_of_tree","type":"esriQuestionTypeImage","label":"Add another image of tree","isRequired":true,"validation":{"inputCount":{"isEnabled":true,"min":1,"max":1},"allowFileType":{"type":"image","exts":["bmp","gif","jp2","jpg","jpeg","jpe","png","psd","sid","tif","tiff"]}},"isReadOnly":false},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/field_10","position":6,"fieldName":"field_10","name":"field_10","type":"esriQuestionTypeText","label":"Total tree height (feet)","isRequired":true,"defaultValue":"","validation":{"valueRange":{"isEnabled":false}},"isReadOnly":false,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/field_8","position":7,"fieldName":"field_8","name":"field_8","type":"esriQuestionTypeText","label":"Find the DBH (diameter at breast height) of this tree","isRequired":true,"defaultValue":"","validation":{"valueRange":{"isEnabled":false}},"isReadOnly":false,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/specify_if_this_tree_is_a_town_","position":8,"fieldName":"specify_if_this_tree_is_a_town_","name":"specify_if_this_tree_is_a_town_","type":"esriQuestionTypeTextArea","label":"Specify if this tree is a town tree","isRequired":true,"defaultValue":"","validation":{"valueRange":{"isEnabled":false}},"isReadOnly":false,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/health_of_this_tree","position":9,"fieldName":"health_of_this_tree","name":"health_of_this_tree","type":"esriQuestionTypeTextArea","label":"Health of this tree and crown condition","isRequired":true,"defaultValue":"","validation":{"valueRange":{"isEnabled":false}},"isReadOnly":false,"calculation":""},{"id":"/xls-79840e422bce43d2a9fae342efa66b1c/other_comments","position":10,"fieldName":"other_comments","name":"other_comments","type":"esriQuestionTypeTextArea","label":"Other comments","isRequired":false,"defaultValue":"","validation":{"valueRange":{"isEnabled":false}},"isReadOnly":false,"calculation":""}],"rules":[],"version":"3.10","themes":[{"id":null,"name":"theme-color1","isEnabled":true,"header":{"backgroundColor":"#31872E","textColor":"#ffffff"},"form":{"backgroundColor":"#ffffff","backgroundOpacity":1,"textColor":"#505050","primaryColor":"#31872E","primaryTextColor":"#ffffff","inputTextColor":"#505050","inputBackgroundColor":"#ffffff"},"webpage":{"backgroundColor":"#B7DCC7"}}],"footer":{"isVisible":true,"content":""},"submit":{"buttonText":""},"settings":{"thankYouScreenContent":"","openStatusInfo":{"status":"open","schedule":{"start":null,"end":null},"closedStatusContent":""},"recordStartEndTime":{"isEnabled":false,"fieldInfos":[]},"notificationsInfo":{},"isVersionLocked":true,"multiSubmissionInfo":{"maxAllowed":0,"showSubmitAnotherTip":false},"draftInfo":{"isEnabled":false},"instanceName":null}}}
+{
+  "form": "<form autocomplete=\"off\" novalidate=\"novalidate\" class=\"or clearfix\" dir=\"ltr\" id=\"survey\">\n<!--This form was created by transforming a OpenRosa-flavored (X)Form using an XSL stylesheet created by Enketo LLC.--><section class=\"form-logo\"> </section><h3 dir=\"auto\" id=\"form-title\">&lt;p style='text-align:start' title='Town of Brighton, New York, Tree Inventory Survey'&gt;Town of Brighton, New York, Tree Inventory Survey&lt;/p&gt;</h3>\n  \n  \n    <label class=\"question non-select \"><span lang=\"\" class=\"or-hint active\">&lt;p&gt;&lt;strong&gt;Be a Tree Hunter! &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Town of Brighton is looking for community members to help with their first interactive tree inventory project.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;A &lt;strong&gt;&lt;u&gt;tree inventory&lt;/u&gt;&lt;/strong&gt; is a record of trees in a specified area. It includes data such as important measurements of a tree, the location of a tree, and the health of a tree. This survey is designed to engage the community of the Town of Brighton to participate in their first interactive, urban tree inventory project. The data you input in this survey will go to a GIS technology map where the cumulative Town of Brighton data will be displayed.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Why is this important?&lt;/strong&gt; A tree inventory allows the town to maintain existing trees, plan for space, and plant new trees. Trees offer many benefits, or ecosystem services, to our community. They help to beautify our neighborhoods, provide shade, sequester carbon dioxide, and filter harmful pollutants.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Without trees we would not breathe!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;em style=\"font-size: 14px;\"&gt;Fill out this survey below!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;For further information, email Brett Carlock at &lt;u&gt;brett.carlock@townofbrighton.org&lt;/u&gt;&lt;/p&gt;</span><input type=\"text\" name=\"/form/generated_note_surveyDescription\" data-type-xml=\"string\" readonly=\"readonly\"/></label>\n    <label class=\"question non-select or-appearance-hide-input \"><span lang=\"\" class=\"question-label active\">Enter the GPS location of your tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Allow GIS to access your location to record this tree on the map&lt;/p&gt;</span><input type=\"text\" name=\"/form/enter_the_gps_location_of_your_\" data-required=\"true()\" data-type-xml=\"geopoint\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Name the street(s) address where this tree is located</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;What street does this tree lie on? Is it at an intersection of two streets? Are there any buildings or significant points nearby that can help to find this tree?&lt;/p&gt;</span><textarea name=\"/form/name_the_streets_address_where_\" data-required=\"true()\" data-type-xml=\"string\"> </textarea><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Species of Tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;What is the species of this tree? Record the genus/species and common name of this tree. Use the app \"PlantNet\" or \"iNaturalist\" if you are having trouble&lt;/p&gt;</span><input type=\"text\" name=\"/form/species_of_tree\" data-required=\"true()\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Image of tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your phone camera to take a clear photo of this tree&lt;/p&gt;</span><input type=\"file\" name=\"/form/image_of_tree\" data-required=\"true()\" data-type-xml=\"binary\" accept=\"image/*\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Add another image of tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your phone camera to take another photo or closeup of this tree&lt;/p&gt;</span><input type=\"file\" name=\"/form/add_another_image_of_tree\" data-required=\"true()\" data-type-xml=\"binary\" accept=\"image/*\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Total tree height (feet)</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your Doyle stick to measure&lt;/p&gt;</span><input type=\"text\" name=\"/form/field_10\" data-required=\"true()\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select \"><span lang=\"\" class=\"question-label active\">Find the DBH (diameter at breast height) of this tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Use your Doyle stick to measure&lt;/p&gt;</span><input type=\"text\" name=\"/form/field_8\" data-required=\"true()\" data-type-xml=\"string\"/><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Specify if this tree is a town tree</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Is this tree a street tree, a park tree, or is it on private property?&lt;/p&gt;</span><textarea name=\"/form/specify_if_this_tree_is_a_town_\" data-required=\"true()\" data-type-xml=\"string\"> </textarea><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Health of this tree and crown condition</span><span class=\"required\">*</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;1.Describe the overall condition of this tree. Does it look healthy, are there some problematic spots like disease, or is it a dead tree? &lt;/p&gt;&lt;p&gt;2.What is its crown (top tree portion) condition? Give on a rating of excellent (healthy) to dead. &lt;/p&gt;</span><textarea name=\"/form/health_of_this_tree\" data-required=\"true()\" data-type-xml=\"string\"> </textarea><span lang=\"\" class=\"or-required-msg active\">This is a required question</span></label>\n    <label class=\"question non-select or-appearance-multiline \"><span lang=\"\" class=\"question-label active\">Other comments</span><span lang=\"\" class=\"or-hint active\">&lt;p&gt;Anything else you would like to add?&lt;/p&gt;</span><textarea name=\"/form/other_comments\" data-type-xml=\"string\"> </textarea></label>\n  \n<fieldset id=\"or-calculated-items\" style=\"display:none;\"><label class=\"calculation non-select \"><input type=\"hidden\" name=\"/form/meta/instanceID\" data-calculate=\"concat('uuid:', uuid())\" data-type-xml=\"string\"/></label></fieldset></form>",
+  "languageMap": {},
+  "model": "<model><instance>\n        <form xmlns:esri=\"http://esri.com/xforms\" xmlns:jr=\"http://openrosa.org/javarosa\" xmlns:odk=\"http://www.opendatakit.org/xforms\" xmlns:orx=\"http://openrosa.org/xforms\" id=\"survey\">\n          <generated_note_surveyDescription/>\n          <enter_the_gps_location_of_your_/>\n          <name_the_streets_address_where_/>\n          <species_of_tree/>\n          <image_of_tree/>\n          <add_another_image_of_tree/>\n          <field_10/>\n          <field_8/>\n          <specify_if_this_tree_is_a_town_/>\n          <health_of_this_tree/>\n          <other_comments/>\n          <meta>\n            <instanceID/>\n          </meta>\n        </form>\n      </instance></model>",
+  "success": true,
+  "surveyFormJson": {
+    "footer": {
+      "content": "",
+      "isVisible": true
+    },
+    "header": {
+      "content": "%3Cp%20style%3D'text-align%3Astart'%20title%3D'Town%20of%20Brighton%2C%20New%20York%2C%20Tree%20Inventory%20Survey'%3ETown%20of%20Brighton%2C%20New%20York%2C%20Tree%20Inventory%20Survey%3C%2Fp%3E",
+      "isVisible": true
+    },
+    "layerName": "survey",
+    "portalUrl": "https://www.arcgis.com",
+    "questions": [
+      {
+        "calculation": "",
+        "id": "/form/generated_note_surveyDescription",
+        "isReadOnly": true,
+        "label": "",
+        "name": "generated_note_surveyDescription",
+        "position": 0,
+        "type": "esriQuestionTypeNote"
+      },
+      {
+        "calculation": "",
+        "defaultExtent": {
+          "spatialReference": {}
+        },
+        "defaultValue": {
+          "spatialReference": {}
+        },
+        "displayFormats": [
+          "DD"
+        ],
+        "id": "/form/enter_the_gps_location_of_your_",
+        "inputTools": [
+          "pin",
+          "search",
+          "locate"
+        ],
+        "isDeviceLocationRequired": false,
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Enter the GPS location of your tree",
+        "maps": [
+          {
+            "isDefault": true,
+            "name": "connect_",
+            "type": "basemap"
+          }
+        ],
+        "name": "enter_the_gps_location_of_your_",
+        "position": 1,
+        "type": "esriQuestionTypeGeoPoint"
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "name_the_streets_address_where_",
+        "id": "/form/name_the_streets_address_where_",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Name the street(s) address where this tree is located",
+        "name": "name_the_streets_address_where_",
+        "position": 2,
+        "type": "esriQuestionTypeTextArea",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "species_of_tree",
+        "id": "/form/species_of_tree",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Species of Tree",
+        "name": "species_of_tree",
+        "position": 3,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "id": "/form/image_of_tree",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Image of tree",
+        "name": "image_of_tree",
+        "position": 4,
+        "type": "esriQuestionTypeImage",
+        "validation": {
+          "allowFileType": {
+            "exts": [
+              "bmp",
+              "gif",
+              "jp2",
+              "jpg",
+              "jpeg",
+              "jpe",
+              "png",
+              "psd",
+              "sid",
+              "tif",
+              "tiff"
+            ],
+            "type": "image"
+          },
+          "inputCount": {
+            "isEnabled": true,
+            "max": 1,
+            "min": 1
+          }
+        }
+      },
+      {
+        "id": "/form/add_another_image_of_tree",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Add another image of tree",
+        "name": "add_another_image_of_tree",
+        "position": 5,
+        "type": "esriQuestionTypeImage",
+        "validation": {
+          "allowFileType": {
+            "exts": [
+              "bmp",
+              "gif",
+              "jp2",
+              "jpg",
+              "jpeg",
+              "jpe",
+              "png",
+              "psd",
+              "sid",
+              "tif",
+              "tiff"
+            ],
+            "type": "image"
+          },
+          "inputCount": {
+            "isEnabled": true,
+            "max": 1,
+            "min": 1
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "field_10",
+        "id": "/form/field_10",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Total tree height (feet)",
+        "name": "field_10",
+        "position": 6,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "field_8",
+        "id": "/form/field_8",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Find the DBH (diameter at breast height) of this tree",
+        "name": "field_8",
+        "position": 7,
+        "type": "esriQuestionTypeText",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "specify_if_this_tree_is_a_town_",
+        "id": "/form/specify_if_this_tree_is_a_town_",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Specify if this tree is a town tree",
+        "name": "specify_if_this_tree_is_a_town_",
+        "position": 8,
+        "type": "esriQuestionTypeTextArea",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "health_of_this_tree",
+        "id": "/form/health_of_this_tree",
+        "isReadOnly": false,
+        "isRequired": true,
+        "label": "Health of this tree and crown condition",
+        "name": "health_of_this_tree",
+        "position": 9,
+        "type": "esriQuestionTypeTextArea",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      },
+      {
+        "calculation": "",
+        "defaultValue": "",
+        "fieldName": "other_comments",
+        "id": "/form/other_comments",
+        "isReadOnly": false,
+        "isRequired": false,
+        "label": "Other comments",
+        "name": "other_comments",
+        "position": 10,
+        "type": "esriQuestionTypeTextArea",
+        "validation": {
+          "valueRange": {
+            "isEnabled": false
+          }
+        }
+      }
+    ],
+    "rules": [],
+    "settings": {
+      "draftInfo": {
+        "isEnabled": false
+      },
+      "instanceName": null,
+      "isVersionLocked": true,
+      "multiSubmissionInfo": {
+        "maxAllowed": 0,
+        "showSubmitAnotherTip": false
+      },
+      "notificationsInfo": {},
+      "openStatusInfo": {
+        "closedStatusContent": "",
+        "schedule": {
+          "end": null,
+          "start": null
+        },
+        "status": "open"
+      },
+      "recordStartEndTime": {
+        "fieldInfos": [],
+        "isEnabled": false
+      },
+      "thankYouScreenContent": ""
+    },
+    "subHeader": {
+      "content": "",
+      "isVisible": true
+    },
+    "submit": {
+      "buttonText": ""
+    },
+    "themes": [
+      {
+        "form": {
+          "backgroundColor": "#ffffff",
+          "backgroundOpacity": 1,
+          "inputBackgroundColor": "#ffffff",
+          "inputTextColor": "#505050",
+          "primaryColor": "#31872E",
+          "primaryTextColor": "#ffffff",
+          "textColor": "#505050"
+        },
+        "header": {
+          "backgroundColor": "#31872E",
+          "textColor": "#ffffff"
+        },
+        "id": null,
+        "isEnabled": true,
+        "name": "theme-color1",
+        "webpage": {
+          "backgroundColor": "#B7DCC7"
+        }
+      }
+    ],
+    "version": "3.10"
+  },
+  "transformerVersion": "1.37.0"
+}
