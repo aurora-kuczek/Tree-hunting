@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="20px" viewBox="0 0 24 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Heart_Selected</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design_Icon" transform="translate(-209.000000, -556.000000)" fill-rule="nonzero" fill="#D65940">
+            <g id="Icon" transform="translate(108.000000, 89.000000)">
+                <g id="Rating" transform="translate(0.000000, 431.000000)">
+                    <g id="Heart_Selected" transform="translate(101.000000, 36.000000)">
+                        <path d="M17.9052355,3.54330238e-14 C16.3495348,3.54330238e-14 14.7999038,0.580361487 13.6079749,1.7360435 L11.989828,3.28989246 L10.3930795,1.74674268 C8.0092217,-0.564621359 4.17168254,-0.564587067 1.78789334,1.74674268 C-0.595964446,4.05807242 -0.595964446,7.81557355 1.78789334,10.1269136 C5.11341541,13.3513079 8.43921182,16.5686723 11.7647682,19.7930324 C11.898379,19.9251341 12.1134088,19.9251341 12.2470196,19.7930324 L22.213161,10.1162144 C24.5943097,7.80288543 24.5969159,4.04733895 22.213161,1.7360435 C21.0212321,0.580361487 19.4609019,-3.55271368e-15 17.9052355,-3.55271368e-15 L17.9052355,3.54330238e-14 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

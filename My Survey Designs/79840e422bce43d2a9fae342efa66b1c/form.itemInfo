@@ -1,0 +1,58 @@
+{
+    "access": "public",
+    "accessInformation": null,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "commentsEnabled": true,
+    "created": 1596063213000,
+    "culture": "en-us",
+    "description": null,
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "79840e422bce43d2a9fae342efa66b1c",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "licenseInfo": null,
+    "listed": false,
+    "modified": 1596988058000,
+    "name": "79840e422bce43d2a9fae342efa66b1c.zip",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 2,
+    "owner": "george_smith@bcsd.org",
+    "ownerFolder": "b3d9b0fd75d14a028c09af7a1140b384",
+    "properties": null,
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 33,
+    "screenshots": [
+    ],
+    "size": 72684,
+    "snippet": null,
+    "spatialReference": null,
+    "tags": [
+        "tree inventory"
+    ],
+    "thumbnail": "thumbnail/Image01.png",
+    "title": "Brighton, New York Tree Inventory",
+    "type": "Form",
+    "typeKeywords": [
+        "Form",
+        "Survey123",
+        "Survey123 Hub",
+        "xForm"
+    ],
+    "url": null
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<h:html xmlns="http://www.w3.org/2002/xforms" xmlns:esri="http://esri.com/xforms" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:jr="http://openrosa.org/javarosa" xmlns:odk="http://www.opendatakit.org/xforms" xmlns:orx="http://openrosa.org/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <h:head>
+    <h:title>&lt;p style='text-align:start' title='Town of Brighton, New York, Tree Inventory Survey'&gt;Town of Brighton, New York, Tree Inventory Survey&lt;/p&gt;</h:title>
+    <model>
+      <instance>
+        <xls-79840e422bce43d2a9fae342efa66b1c id="survey">
+          <generated_note_surveyDescription/>
+          <enter_the_gps_location_of_your_/>
+          <name_the_streets_address_where_/>
+          <species_of_tree/>
+          <image_of_tree/>
+          <add_another_image_of_tree/>
+          <field_10/>
+          <field_8/>
+          <specify_if_this_tree_is_a_town_/>
+          <health_of_this_tree/>
+          <other_comments/>
+          <meta>
+            <instanceID/>
+          </meta>
+        </xls-79840e422bce43d2a9fae342efa66b1c>
+      </instance>
+      <bind nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/generated_note_surveyDescription" readonly="true()" type="string"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/enter_the_gps_location_of_your_" required="true()" type="geopoint"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/name_the_streets_address_where_" required="true()" type="string"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/species_of_tree" required="true()" type="string"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/image_of_tree" required="true()" type="binary"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/add_another_image_of_tree" required="true()" type="binary"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/field_10" required="true()" type="string"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/field_8" required="true()" type="string"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/specify_if_this_tree_is_a_town_" required="true()" type="string"/>
+      <bind jr:requiredMsg="This is a required question" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/health_of_this_tree" required="true()" type="string"/>
+      <bind nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/other_comments" type="string"/>
+      <bind calculate="concat('uuid:', uuid())" nodeset="/xls-79840e422bce43d2a9fae342efa66b1c/meta/instanceID" readonly="true()" type="string"/>
+    </model>
+  </h:head>
+  <h:body>
+    <input ref="/xls-79840e422bce43d2a9fae342efa66b1c/generated_note_surveyDescription">
+      <hint>&lt;p&gt;&lt;strong&gt;Be a Tree Hunter! &lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;The Town of Brighton is looking for community members to help with their first interactive tree inventory project.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;A &lt;strong&gt;&lt;u&gt;tree inventory&lt;/u&gt;&lt;/strong&gt; is a record of trees in a specified area. It includes data such as important measurements of a tree, the location of a tree, and the health of a tree. This survey is designed to engage the community of the Town of Brighton to participate in their first interactive, urban tree inventory project. The data you input in this survey will go to a GIS technology map where the cumulative Town of Brighton data will be displayed.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Why is this important?&lt;/strong&gt; A tree inventory allows the town to maintain existing trees, plan for space, and plant new trees. Trees offer many benefits, or ecosystem services, to our community. They help to beautify our neighborhoods, provide shade, sequester carbon dioxide, and filter harmful pollutants.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Without trees we would not breathe!&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;em style="font-size: 14px;"&gt;Fill out this survey below!&lt;/em&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;For further information, email Brett Carlock at &lt;u&gt;brett.carlock@townofbrighton.org&lt;/u&gt;&lt;/p&gt;</hint>
+    </input>
+    <input appearance="hide-input" ref="/xls-79840e422bce43d2a9fae342efa66b1c/enter_the_gps_location_of_your_">
+      <label>Enter the GPS location of your tree</label>
+      <hint>&lt;p&gt;Allow GIS to access your location to record this tree on the map&lt;/p&gt;</hint>
+    </input>
+    <input appearance="multiline" ref="/xls-79840e422bce43d2a9fae342efa66b1c/name_the_streets_address_where_">
+      <label>Name the street(s) address where this tree is located</label>
+      <hint>&lt;p&gt;What street does this tree lie on? Is it at an intersection of two streets? Are there any buildings or significant points nearby that can help to find this tree?&lt;/p&gt;</hint>
+    </input>
+    <input ref="/xls-79840e422bce43d2a9fae342efa66b1c/species_of_tree">
+      <label>Species of Tree</label>
+      <hint>&lt;p&gt;What is the species of this tree? Record the genus/species and common name of this tree. Use the app "iNaturalist" if you are having trouble&lt;/p&gt;</hint>
+    </input>
+    <upload mediatype="image/*" ref="/xls-79840e422bce43d2a9fae342efa66b1c/image_of_tree">
+      <label>Image of tree</label>
+      <hint>&lt;p&gt;Use your phone camera to take a clear photo of this tree&lt;/p&gt;</hint>
+    </upload>
+    <upload mediatype="image/*" ref="/xls-79840e422bce43d2a9fae342efa66b1c/add_another_image_of_tree">
+      <label>Add another image of tree</label>
+      <hint>&lt;p&gt;Use your phone camera to take another photo or closeup of this tree&lt;/p&gt;</hint>
+    </upload>
+    <input ref="/xls-79840e422bce43d2a9fae342efa66b1c/field_10">
+      <label>Total tree height (feet)</label>
+      <hint>&lt;p&gt;Use your Doyle stick to measure&lt;/p&gt;</hint>
+    </input>
+    <input ref="/xls-79840e422bce43d2a9fae342efa66b1c/field_8">
+      <label>Find the DBH (diameter at breast height) of this tree</label>
+      <hint>&lt;p&gt;Use your Doyle stick to measure&lt;/p&gt;</hint>
+    </input>
+    <input appearance="multiline" ref="/xls-79840e422bce43d2a9fae342efa66b1c/specify_if_this_tree_is_a_town_">
+      <label>Specify if this tree is a town tree</label>
+      <hint>&lt;p&gt;Is this tree a street tree, a park tree, or is it on private property?&lt;/p&gt;</hint>
+    </input>
+    <input appearance="multiline" ref="/xls-79840e422bce43d2a9fae342efa66b1c/health_of_this_tree">
+      <label>Health of this tree and crown condition</label>
+      <hint>&lt;p&gt;1.Describe the overall condition of this tree. Does it look healthy, are there some problematic spots like disease, or is it a dead tree? &lt;/p&gt;&lt;p&gt;2.What is its crown (top tree portion) condition? Give on a rating of excellent (healthy) to dead. &lt;/p&gt;</hint>
+    </input>
+    <input appearance="multiline" ref="/xls-79840e422bce43d2a9fae342efa66b1c/other_comments">
+      <label>Other comments</label>
+      <hint>&lt;p&gt;Anything else you would like to add?&lt;/p&gt;</hint>
+    </input>
+  </h:body>
+</h:html>
